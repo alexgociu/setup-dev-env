@@ -1,4 +1,9 @@
-setup-dev-env
-=============
+Run this to setup your individual development environment, either on a remote server or on your local computer
 
-Setup individual development environment
+```
+cd $HOME
+sudo apt-get install -y git-core
+git clone https://github.com/alexgociu/setup-dev-env.git
+./setup-dev-env/setup.sh
+```
+
