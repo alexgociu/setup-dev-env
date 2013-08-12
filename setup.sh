@@ -1,6 +1,10 @@
 # Install vim
 sudo apt-get install vim
 
+# Enable adding PPAs
+
+sudo apt-get install python-software-properties
+
 # Install emacs24
 # https://launchpad.net/~cassou/+archive/emacs
 sudo apt-add-repository -y ppa:cassou/emacs
